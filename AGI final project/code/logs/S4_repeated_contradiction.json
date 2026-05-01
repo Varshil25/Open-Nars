@@ -1,0 +1,2400 @@
+{
+  "scenario": "S4_repeated_contradiction",
+  "category": "simple",
+  "description": "Alternating contradictions. Each contradiction adds evidence even though frequency stays balanced. Measures confidence growth rate relative to theoretical w+ / (w+ + k) formula.",
+  "steps": [
+    {
+      "index": 0,
+      "kind": "input",
+      "narsese": "<X --> P>. %1.0;0.9%",
+      "note": "",
+      "cycle_before": 0
+    },
+    {
+      "index": 1,
+      "kind": "input",
+      "narsese": "<X --> P>. %0.0;0.9%",
+      "note": "",
+      "cycle_before": 3
+    },
+    {
+      "index": 2,
+      "kind": "input",
+      "narsese": "<X --> P>. %1.0;0.9%",
+      "note": "",
+      "cycle_before": 6
+    },
+    {
+      "index": 3,
+      "kind": "input",
+      "narsese": "<X --> P>. %0.0;0.9%",
+      "note": "",
+      "cycle_before": 9
+    },
+    {
+      "index": 4,
+      "kind": "input",
+      "narsese": "<X --> P>. %1.0;0.9%",
+      "note": "",
+      "cycle_before": 12
+    },
+    {
+      "index": 5,
+      "kind": "input",
+      "narsese": "<X --> P>. %0.0;0.9%",
+      "note": "",
+      "cycle_before": 15
+    },
+    {
+      "index": 6,
+      "kind": "input",
+      "narsese": "<X --> P>. %1.0;0.9%",
+      "note": "",
+      "cycle_before": 18
+    },
+    {
+      "index": 7,
+      "kind": "input",
+      "narsese": "<X --> P>. %0.0;0.9%",
+      "note": "",
+      "cycle_before": 21
+    },
+    {
+      "index": 8,
+      "kind": "input",
+      "narsese": "<X --> P>. %1.0;0.9%",
+      "note": "",
+      "cycle_before": 24
+    }
+  ],
+  "snapshots": [
+    {
+      "cycle": 0,
+      "terms": {
+        "<X --> P>": []
+      }
+    },
+    {
+      "cycle": 1,
+      "terms": {
+        "<X --> P>": []
+      }
+    },
+    {
+      "cycle": 2,
+      "terms": {
+        "<X --> P>": []
+      }
+    },
+    {
+      "cycle": 3,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2716}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 4,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2716}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 5,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2716}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 6,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2716}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 7,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2716}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 8,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2724}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 9,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2724}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 10,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2724}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 11,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2724}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 12,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2724}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 13,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2724}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 14,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2724}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 15,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2724}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 16,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2732}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 17,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2732}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2720}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 18,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2732}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2720}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 19,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2732}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2720}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 20,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2732}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2736}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 21,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2732}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2728}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 22,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2732}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2728}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 23,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2732}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2728}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 24,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2732}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2728}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 25,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2732}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2728}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 26,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2732}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2728}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 27,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2732}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2728}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 28,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2732}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2728}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 29,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2732}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2728}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 30,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2732}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2728}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 31,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2728}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2748}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 32,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2728}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2748}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 33,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2728}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 34,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2728}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 35,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2728}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 36,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2728}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 37,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2728}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 38,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2728}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 39,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2728}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 40,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2728}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 41,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2728}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 42,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 43,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 44,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 45,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 46,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 47,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 48,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 49,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 50,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 51,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 52,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 53,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 54,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 55,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 56,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2740, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 57,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2740, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 58,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 59,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 60,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 61,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 62,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 63,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 64,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 65,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 66,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 67,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 68,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 69,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 70,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 71,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 72,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 73,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 74,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 75,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 76,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 77,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 78,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 79,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 80,
+      "terms": {
+        "<X --> P>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.972972972972973,
+            "expectation": 0.9864864864864865,
+            "evidential_base": "Base{2748, 2724, 2716, 2732}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9642857142857143,
+            "expectation": 0.9821428571428572,
+            "evidential_base": "Base{2732, 2716, 2724}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9473684210526316,
+            "expectation": 0.9736842105263158,
+            "evidential_base": "Base{2724, 2716}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{2740}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.9,
+            "expectation": 0.04999999999999999,
+            "evidential_base": "Base{2744}"
+          }
+        ]
+      }
+    }
+  ],
+  "final": {
+    "<X --> P>": [
+      {
+        "frequency": 1.0,
+        "confidence": 0.972972972972973,
+        "expectation": 0.9864864864864865,
+        "evidential_base": "Base{2748, 2724, 2716, 2732}"
+      },
+      {
+        "frequency": 1.0,
+        "confidence": 0.9642857142857143,
+        "expectation": 0.9821428571428572,
+        "evidential_base": "Base{2732, 2716, 2724}"
+      },
+      {
+        "frequency": 1.0,
+        "confidence": 0.9473684210526316,
+        "expectation": 0.9736842105263158,
+        "evidential_base": "Base{2724, 2716}"
+      },
+      {
+        "frequency": 1.0,
+        "confidence": 0.9,
+        "expectation": 0.95,
+        "evidential_base": "Base{2740}"
+      },
+      {
+        "frequency": 0.0,
+        "confidence": 0.9,
+        "expectation": 0.04999999999999999,
+        "evidential_base": "Base{2744}"
+      }
+    ]
+  },
+  "wall_time_seconds": 0.049578791000385536,
+  "cycles_run": 80
+}

@@ -1,0 +1,1157 @@
+{
+  "scenario": "S2_asymmetric_strength",
+  "category": "simple",
+  "description": "Strong evidence for, then weaker evidence against. Tests whether NARS correctly weights contradictions by confidence.",
+  "steps": [
+    {
+      "index": 0,
+      "kind": "input",
+      "narsese": "<bird --> flyer>. %1.0;0.9%",
+      "note": "very strong positive",
+      "cycle_before": 0
+    },
+    {
+      "index": 1,
+      "kind": "input",
+      "narsese": "<bird --> flyer>. %0.0;0.5%",
+      "note": "weak negative",
+      "cycle_before": 10
+    }
+  ],
+  "snapshots": [
+    {
+      "cycle": 0,
+      "terms": {
+        "<bird --> flyer>": []
+      }
+    },
+    {
+      "cycle": 1,
+      "terms": {
+        "<bird --> flyer>": []
+      }
+    },
+    {
+      "cycle": 2,
+      "terms": {
+        "<bird --> flyer>": []
+      }
+    },
+    {
+      "cycle": 3,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 4,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 5,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 6,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 7,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 8,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 9,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 10,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 11,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 12,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 13,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 14,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 15,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 16,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 17,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 18,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 19,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 20,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 21,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 22,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 23,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 24,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 25,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 26,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 27,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 28,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 29,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 30,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 31,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 32,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 33,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 34,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 35,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 36,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 37,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 38,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 39,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 40,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 41,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 42,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 43,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 44,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 45,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 46,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 47,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 48,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 49,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 50,
+      "terms": {
+        "<bird --> flyer>": [
+          {
+            "frequency": 0.9,
+            "confidence": 0.9090909090909091,
+            "expectation": 0.8636363636363636,
+            "evidential_base": "Base{1336, 1325}"
+          },
+          {
+            "frequency": 1.0,
+            "confidence": 0.9,
+            "expectation": 0.95,
+            "evidential_base": "Base{1325}"
+          },
+          {
+            "frequency": 0.0,
+            "confidence": 0.5,
+            "expectation": 0.25,
+            "evidential_base": "Base{1336}"
+          }
+        ]
+      }
+    }
+  ],
+  "final": {
+    "<bird --> flyer>": [
+      {
+        "frequency": 0.9,
+        "confidence": 0.9090909090909091,
+        "expectation": 0.8636363636363636,
+        "evidential_base": "Base{1336, 1325}"
+      },
+      {
+        "frequency": 1.0,
+        "confidence": 0.9,
+        "expectation": 0.95,
+        "evidential_base": "Base{1325}"
+      },
+      {
+        "frequency": 0.0,
+        "confidence": 0.5,
+        "expectation": 0.25,
+        "evidential_base": "Base{1336}"
+      }
+    ]
+  },
+  "wall_time_seconds": 0.03387579100126459,
+  "cycles_run": 50
+}

@@ -1,0 +1,18 @@
+scenario,category,term,final_f,final_c,final_e,n_beliefs,cycles,theory_f,theory_c,df,dc
+C1_deduction_chain_contradicted,inference_chain,<robin --> animal>,1.0,0.81,0.905,2,60,,,,
+C1_deduction_chain_contradicted,inference_chain,<bird --> animal>,0.5,0.9473684210526316,0.5,3,60,0.5,0.9473684210526316,0.0,0.0
+C2_conflicting_rules,inference_chain,<penguin --> flyer>,0.0,0.9,0.04999999999999999,1,60,0.0,0.9,0.0,0.0
+C2_conflicting_rules,inference_chain,<bird --> flyer>,1.0,0.9,0.95,1,60,1.0,0.9,0.0,0.0
+C3_cascade_contradiction,inference_chain,<a --> c>,,,,0,80,,,,
+C3_cascade_contradiction,inference_chain,<a --> d>,,,,0,80,,,,
+C3_cascade_contradiction,inference_chain,<a --> e>,,,,0,80,,,,
+C3_cascade_contradiction,inference_chain,<b --> d>,,,,0,80,,,,
+C3_cascade_contradiction,inference_chain,<b --> e>,,,,0,80,,,,
+C3_cascade_contradiction,inference_chain,<c --> e>,,,,0,80,,,,
+S1_direct_negation,simple,<bird --> flyer>,0.5,0.9473684210526316,0.5,3,50,0.5,0.9473684210526316,0.0,0.0
+S2_asymmetric_strength,simple,<bird --> flyer>,0.9,0.9090909090909091,0.8636363636363636,3,50,0.9,0.9090909090909091,0.0,0.0
+S3_graded_contradiction,simple,<swan --> white>,1.0,0.972972972972973,0.9864864864864865,5,60,0.8,0.9782608695652174,0.19999999999999996,-0.005287896592244379
+S4_repeated_contradiction,simple,<X --> P>,1.0,0.972972972972973,0.9864864864864865,5,80,0.5555555555555558,0.9878048780487805,0.4444444444444442,-0.01483190507580745
+T1_recent_vs_old_equal,temporal,<market --> rising>,0.5,0.9473684210526316,0.5,3,80,0.5,0.9473684210526316,0.0,0.0
+T2_reverse_order,temporal,<market --> rising>,0.5,0.9473684210526316,0.5,3,80,0.5,0.9473684210526316,0.0,0.0
+T3_weight_erosion,temporal,<coin --> fair>,0.8333333333333334,0.9818181818181818,0.8272727272727274,7,120,0.6666666666666664,0.9908256880733944,0.16666666666666696,-0.009007506255212627
